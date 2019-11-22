@@ -1,5 +1,7 @@
 # Outline
 
+## Introduction
+
 1. Introduction
    1. Overview
    2. State of PWA.
@@ -24,4 +26,65 @@
    2. Case Studies
       1. [http://offlinefirst.org/casestudies/](http://offlinefirst.org/casestudies/)
       2. [https://www.pwastats.com/](https://www.pwastats.com/)
+
+### Overview
+
+...
+
+### Current PWA adoption
+
+...
+
+### PWA vs. Native Application
+
+...
+
+### Progressive Enhancement
+
+...
+
+## The Service Worker
+
+### Overview
+
+...
+
+### Installation Cycle
+
+...
+
+### Browser Requests
+
+* The Fetch API
+  * The history of AJAX/Fetch, etc.
+  * Intercepting a request with a service worker.
+
+## The CacheStorage API
+
+### Overview
+
+...
+
+### Traditional Caching
+
+* Browser Caching
+* Server-side Caching
+
+### Indexed DB
+
+
+
+## Further Reading
+
+#### Books
+
+* Going Offline by Jeremy Keith \(2018\) by Jeremy Keith
+* Building Progressive Web Apps \(2017\) by Tal Ater
+
+Case Studies
+
+* [http://offlinefirst.org/casestudies/](http://offlinefirst.org/casestudies/)
+* [https://www.pwastats.com/](https://www.pwastats.com/)
+
+
 
