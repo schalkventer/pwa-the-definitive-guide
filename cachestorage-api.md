@@ -1,4 +1,4 @@
-# CacheStorage API
+# ✅ CacheStorage API
 
 ## The CacheStorage API
 

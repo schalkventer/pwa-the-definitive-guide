@@ -1,2 +1,2 @@
-# IndexedDB
+# 💾 IndexedDB
 

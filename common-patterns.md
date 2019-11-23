@@ -1,2 +1,2 @@
-# Common Patterns
+# 🎯 Common PWA Patterns
 

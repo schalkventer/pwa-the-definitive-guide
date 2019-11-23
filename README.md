@@ -1,12 +1,12 @@
-# Introduction
+# 👋 Introduction
 
-### Reason for this guide
-
-...
-
-### Nature of this guide
+## Reason for this guide
 
 ...
 
+## Nature of this guide
 
+...
+
+## Table of Contents
 

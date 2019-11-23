@@ -1,4 +1,4 @@
-# The Service Worker
+# ⚙️ The Service Worker
 
 ### Overview
 

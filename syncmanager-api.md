@@ -1,2 +1,2 @@
-# SyncManager API
+# 🔄 SyncManager API
 
