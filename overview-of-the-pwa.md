@@ -1,4 +1,4 @@
-# 🔎 Overview of the PWA
+# 🤷‍♀️ Pros and Cons
 
 ### Overview
 
