@@ -2,11 +2,7 @@
 
 ## Motivation
 
-Like most web developers, I started out extremely excited when I first heard about the \(then up-and-coming\) suite of technologies that allow web developers to build products, that are able to compete directly with native mobile and desktop software.
-
-**The best part?   
-It can be done with plain HTML, CSS and JavaScript.  
-I.e. no libraries, frameworks or conversion tools required.**
+Like most web developers, I started out extremely excited when I first heard about the \(then up-and-coming\) suite of technologies that allow web developers to create projects/products, that are able to compete directly with native mobile and desktop software.
 
 It started at one of the monthly [Cape Town Front-end Developers](https://ctfeds.org/) meetups titled [_Service Workers and Push Notifications_](https://www.meetup.com/ctfeds/events/225531712/)_._ I also vividly remember assuming that service workers \(much to my embarrassment\) referred to employees working tech-support, and therefore the talk will cover how they and/or their platform use push notifications in their daily work.
 
@@ -15,8 +11,6 @@ I left that meetup breathing in every single piece of literature on Progressive 
 Fast-forward to 2019, and I'm now one of the co-hosts of that monthly meetup. Not only that, but we haven't had another talk/workshop on Progressive Web Apps since. I assure you this is not from a lack of trying! I just didn't seem like anyone felt that they knew enough about Progressive Web Apps, to do a talk/workshop. Most attendees seemed to know a bit here and there about aspects of Progressive Web Apps, but only out of necessity when requested by clients/teams. In response to this I started compiling a list of helpful links about Progressive Web Apps and all associated technology, in the hopes that if someone where to do a talk on the subject matter they would have a bit of a head-start. I eventually started adding my own notes and examples, and at some point the personal notes/examples made up the majority of the document.
 
 I was finally able to coerce a good friend of mine, [Shailen Naidoo](https://github.com/ShailenNaidoo), to co-facilitate a whole day workshop on Progressive Web Apps in early 2020.T This meant that the collection of notes finally served it's purpose. However, due to the sheer size of it I thought it might actually be of value to further refine and publish it as an open-source project for anyone who anyone interested in building their first Progressive Web App.
-
-My hope is that this resources will eventually grow to include everything needed to go from zero to a fully-featured PWA capable of directly competing with native mobile apps.
 
 ## How to contribute
 

@@ -11,5 +11,6 @@
 * [🔔 Push Notifications](push-notifications.md)
 * [🎯 Common PWA Patterns](common-patterns.md)
 * [🔎 Case Studies](case-studies.md)
+* [🐣 Creating your PWA](creating-your-pwa.md)
 * [📚 Further Reading](further-reading.md)
 
