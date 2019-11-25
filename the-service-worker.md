@@ -12,6 +12,14 @@
 
 ...
 
+## Intercepting Requests
+
+### The fetch request
+
+
+
+
+
 ## Browser Requests
 
 * The Fetch API
