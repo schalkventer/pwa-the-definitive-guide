@@ -25,6 +25,6 @@ Please feel free to log an issue or open a pull request on [the project reposito
 You can reach out to me directly via my email account: [venterschalk@gmail.com](mailto:venterschalk@gmail.com).  
 Alternatively you can chat to me on Slack in the following workspaces:
 
-* [FEDs on Slack](http://fedsonslack.com/) as `@schalkventer`
 * [ZA Tech](https://zatech.co.za/) as `@schalkventer`
+* [Code for Africa](https://docs.google.com/forms/d/e/1FAIpQLScBPmaH71EuV3HTw-4KSB6x-Xs-6Euf3baSfsMt1wi8n9adkA/viewform) as `@schalkventer`
 

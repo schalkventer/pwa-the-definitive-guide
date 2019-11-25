@@ -4,6 +4,7 @@
 * [👋 Introduction](introduction.md)
 * [🤷‍♀️ Pros and Cons](overview-of-the-pwa.md)
 * [⚙️ The Service Worker](the-service-worker.md)
+* [📝 Manifest File](manifest-file.md)
 * [✅ CacheStorage API](cachestorage-api.md)
 * [📡 Client API](client-api.md)
 * [💾 IndexedDB](indexeddb.md)

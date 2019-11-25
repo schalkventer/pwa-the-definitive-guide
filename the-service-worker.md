@@ -1,14 +1,18 @@
 # ⚙️ The Service Worker
 
-### Overview
+## Overview
 
 ...
 
-### Installation Cycle
+## Web Workers
 
 ...
 
-### Browser Requests
+## Installation Cycle
+
+...
+
+## Browser Requests
 
 * The Fetch API
   * The history of AJAX/Fetch, etc.

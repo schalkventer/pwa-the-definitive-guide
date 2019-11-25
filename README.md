@@ -17,6 +17,7 @@ This means that we will not be using any libraries, frameworks, external tools a
 * [👋 Introduction](https://www.pwa.support/introduction)
 * 🤷‍♀️ [Pros and Cons](https://www.pwa.support/overview-of-the-pwa)
 * [⚙️ The Service Worker](https://www.pwa.support/the-service-worker)
+* [📝Manifest File](https://www.pwa.support/manifest-file)
 * [✅ CacheStorage API](https://www.pwa.support/cachestorage-api)
 * [💾 IndexedDB](https://www.pwa.support/indexeddb)
 * [🔄 SyncManager API](https://www.pwa.support/syncmanager-api)
@@ -24,7 +25,7 @@ This means that we will not be using any libraries, frameworks, external tools a
 * [🔔 Push Notifications](https://www.pwa.support/push-notifications)
 * [🎯 Common PWA Patterns](https://www.pwa.support/common-patterns)
 * 🔎 [Case Studies](https://www.pwa.support/case-studies)
-* 🐣 Creating your PWA
+* 🐣 [Creating your PWA](https://www.pwa.support/creating-your-pwa)
 * [📚 Further Reading](https://www.pwa.support/further-reading)
 
 ## Summary
