@@ -1,2 +1,2 @@
-# 🐣 Creating your PWA
+# 🐣 Building your PWA
 
