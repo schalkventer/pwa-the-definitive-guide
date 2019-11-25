@@ -2,15 +2,18 @@
 
 ## Overview
 
-A comprehensive beginner-friendly guide to building a fully-featured _Progressive Web Apps_ capable of directly competing with native mobile and desktop software.
+A comprehensive, yet beginner-friendly, guide to building a fully-featured _Progressive Web Apps_ capable of directly competing with native mobile and desktop software in 2019.
 
-**All that is required:**
+All that is required to start \(and complete\) this guide is 
 
-* A couple of HTML files.
-* A couple of JavaScript files.
-* A text editor to edit them.
+* **A couple of HTML \(`.html`\) files.**
+* **A couple of JavaScript \(`.js`\) files.**
+* **A text editor to edit them.**
+* **A web browser to view them.**
 
-This means that we will not be using any libraries, frameworks, external tools and build processes. If you know some HTML and a bit of JavaScript you should be able jump in anywhere by browsing the [Table of Contents](./#table-of-contents) or [Summary ](./#summary)sections below. Alternatively, you can also take it slow and work through this guide section per section from top to bottom.
+That's it!
+
+We won't be using any front-end or back-end libraries, frameworks, external tools and build processes. If you know some HTML and a bit of JavaScript you should be able jump in anywhere by browsing the [Table of Contents](./#table-of-contents) or [Summary ](./#summary)sections below. Alternatively, you can also take it slow and work through this guide section per section all the way from the top.
 
 ## Table of Contents
 
@@ -28,7 +31,7 @@ This means that we will not be using any libraries, frameworks, external tools a
 * 🐣 [Creating your PWA](https://www.pwa.support/creating-your-pwa)
 * [📚 Further Reading](https://www.pwa.support/further-reading)
 
-## Summary
+## Section Summaries
 
 ####  Introduction
 
