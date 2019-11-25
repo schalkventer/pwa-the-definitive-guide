@@ -5,6 +5,7 @@
 * [🤷‍♀️ Pros and Cons](overview-of-the-pwa.md)
 * [⚙️ The Service Worker](the-service-worker.md)
 * [📝 Manifest File](manifest-file.md)
+* [🚚 Intercepting Requests](intercepting-requests.md)
 * [✅ CacheStorage API](cachestorage-api.md)
 * [📡 Client API](client-api.md)
 * [💾 IndexedDB](indexeddb.md)
