@@ -2,11 +2,11 @@
 
 ## Overview
 
-...
+Core to the concept of 
 
 ## Web Workers
 
-...
+
 
 ## Installation Cycle
 
