@@ -8,6 +8,106 @@
 
 ...
 
+### What is a web worker?
+
+#### The asynchronous nature of JavaScript
+
+Since it's birth JavaScript was always envisioned as an asynchronous language.
+
+Meaning that tasks do not happen in the order that they are written in the code, but rather when they are called in the JavaScript event loop. According to the Mozilla Developer Network the event loop, which lies at the heart of JavaScript, can be described as follows: 
+
+> JavaScript has a concurrency model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java.
+
+Along with the event loop, JavaScript handles handles asynchronousity by means of a [call-stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack), which is essential a container that keeps all tasks that can be run on the page \(called registered events\). The event loop then runs in the background continually checking whether any tasks in the call-stack have met their execution conditions. 
+
+_As an aside, you might have gotten the  `'Maximum call stack size exceeded.'` in your code before. This essentially means that the call-stack has reached it's storage limit and can no longer store any more tasks._
+
+To illustrate this we can look at the following code:
+
+```javascript
+// Gets the all <button> elements on the page.
+const htmlButtons = document.querySelector('button');
+
+// Adds an alert to the call-stack when the first button is clicked.
+const showFirstMessage = () => alert('This is the first message'); 
+htmlButtons[0].addEventListener('click', showMessage);
+
+// Adds an alert to the call-stack when the second button is clicked.
+const showSecondMessage = () => alert('This is the second message'); 
+htmlButtons[1].addEventListener('click', showMessage);
+
+```
+
+Due to the above interaction between the event-loop and the call-stack the buttons can be pressed in any order, regardless of the order it was written in our code. Alternatively we can also do the following:
+
+```javascript
+setTimeout(showFirstMessage, 2000);
+setTimeout(showSecondMessage, 1000);
+```
+
+If you run the above code you will notice that the second message fires before the first message, regardless of the order that it was declared in.
+
+#### The single JavaScript thread.
+
+However, let's say we want to modify our code as follows: Whenever a user clicks one of the buttons, we want to remind them about the other button if 5 seconds go by without them clicking it. Our code might look as follows:
+
+```javascript
+let bothClicked = false;
+let waitingForOtherButton = false;
+
+const htmlButtons = document.querySelector('button');
+
+const secondaryAlert = () => {
+    const showReminder = () => alert('Please click other button too');
+    
+    if (waitingForOtherButton === false) {
+    
+    }
+    
+    setTimeount(
+    
+    if (bothClicked === false) {
+        
+    }
+}
+
+const showFirstMessage = () => alert('This is the first message'); 
+htmlButtons[0].addEventListener('click', showMessage);
+
+const showSecondMessage = () => alert('This is the second message'); 
+htmlButtons[1].addEventListener('click', showMessage);
+
+```
+
+
+
+ clicked we want to wait 3 seconds, and alert the user if the 
+
+One of the problems plaguing the history of JavaScript is that it's code can only be executed in a single thread. This means that it can only perform one one task at a time. This does not mean that task can not happen asynchronously \(in different orders\), but in essence JavaScript can only focus on one task at a time. This is usually illustrated by the following example:
+
+```javascript
+const fireAlert = () => alert('Focus on me now!')
+
+const addText = () => 
+    document.body.innerText = document.body.innerText + 'Hello world!';
+    
+setTimeout(addText, 1000);
+setTimeout(addText, 2000);
+setTimeout(addText, 3000);
+setTimeout(addText, 4000);
+
+setTimeout(fireAlert, 2500);
+
+```
+
+If you run the following example you will notice that it outputs `'Hello world!'` to the window twice and then pauses once the `alert` fires. Upon dismissing the message \(if 4 seconds have passed\), the remaining two instances of `'Hello world!` is immediately output to the window instead of continuing the count.
+
+{% embed url="https://codepen.io/schalkventer/pen/1f07df691759750da6d78aefa223d1f8?editors=1011" %}
+
+You are seeing the single-threaded nature of JavaScript in action. Since JavaScript is inherently asynchronous, 
+
+Web workers were initially conceived in 2009 as a way 
+
 ## The Lifecycle
 
 The service worker installation cycle can be confusing at first. However, it's relatively simple to grasp if you understand two things:
