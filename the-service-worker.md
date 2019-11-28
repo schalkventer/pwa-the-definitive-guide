@@ -12,9 +12,11 @@
 
 #### The asynchronous nature of JavaScript
 
-Since it's birth JavaScript was always envisioned as an asynchronous language.
+Even from it's humble beginning at Netscape, JavaScript has always been envisioned as an asynchronous language. 
 
-Meaning that tasks do not happen in the order that they are written in the code, but rather when they are called in the JavaScript event loop. According to the Mozilla Developer Network the event loop, which lies at the heart of JavaScript, can be described as follows: 
+If you're not familiar with the concept of asynchronous programming, in can be described in short as a language that allow code to be executed in a different order than it was written. In a synchronous language you might have the following what 
+
+This means that tasks do not happen in the order that they are written in the code, but rather when they are called in the JavaScript event loop. According to the Mozilla Developer Network the event loop, which lies at the heart of JavaScript, can be described as follows: 
 
 > JavaScript has a concurrency model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java.
 
