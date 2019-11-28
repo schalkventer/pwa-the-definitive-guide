@@ -2,9 +2,9 @@
 
 ## Overview
 
-A comprehensive, yet beginner-friendly, guide to building a fully-featured _Progressive Web Apps_ capable of directly competing with native mobile and desktop software in 2019.
+A comprehensive, yet beginner-friendly, guide to building fully-featured _Progressive Web Apps_ capable of directly competing with native mobile and desktop apps in 2019.
 
-All that is required to start \(and complete\) this guide is 
+All that is required to start \(and complete\) this guide is:
 
 * **A couple of HTML \(`.html`\) files.**
 * **A couple of JavaScript \(`.js`\) files.**
