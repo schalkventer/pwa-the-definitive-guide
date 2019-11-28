@@ -6,15 +6,17 @@
 
 ## Web Workers
 
-...
+### Asynchronous JavaScript
 
-### What is a web worker?
+Even from it's humble beginning at Netscape in 1993, JavaScript has always been envisioned as an asynchronous language. 
 
-#### The asynchronous nature of JavaScript
+If you're not familiar with the concept of asynchronous programming languages, they can be described as a languages that allow code to be executed in a different order than it was written. In a synchronous language you might pause the execution of all code until a specific condition resolves \(for example you might wait for specific data to load before doing anything else\).
 
-Even from it's humble beginning at Netscape, JavaScript has always been envisioned as an asynchronous language. 
+While it is definitely easier to reason about synchronous code \(which is why Node usually provides synchronous versions of functions in addition to the default asynchronous functions\), being able to selectively execute code as needed does provide a lot of benefits.
 
-If you're not familiar with the concept of asynchronous programming, in can be described in short as a language that allow code to be executed in a different order than it was written. In a synchronous language you might have the following what 
+{% hint style="info" %}
+If you've never heard about Node before, it can basically be described as ...
+{% endhint %}
 
 This means that tasks do not happen in the order that they are written in the code, but rather when they are called in the JavaScript event loop. According to the Mozilla Developer Network the event loop, which lies at the heart of JavaScript, can be described as follows: 
 
@@ -49,7 +51,7 @@ setTimeout(showSecondMessage, 1000);
 
 If you run the above code you will notice that the second message fires before the first message, regardless of the order that it was declared in.
 
-#### The single JavaScript thread.
+### The single thread
 
 However, let's say we want to modify our code as follows: Whenever a user clicks one of the buttons, we want to remind them about the other button if 5 seconds go by without them clicking it. Our code might look as follows:
 
