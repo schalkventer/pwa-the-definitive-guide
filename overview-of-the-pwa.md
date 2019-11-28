@@ -4,29 +4,29 @@
 
 ## Background
 
-I remember the first time I worked on a native app.
+I remember the first time native app project I worked on.
 
-This was early 2014, and every client wanted to have some form of mobile app for their product \(whether justified or not\). The excitement around mobile apps were still at an all time high. In fact, just 4 years prior the [American Dialect Society](https://www.americandialect.org/) named the word 'App' as their 2010 word of the year, citing that:
+**This was early 2014, and every client wanted to have some form of mobile or tablet app for their product \(whether justified or not\). The the exciting prospect of mobile apps were at an all-time high. In fact, four years prior the** [**American Dialect Society**](https://www.americandialect.org/) **named the word 'App' as their word of the year for 2010:**
 
 > “App has been around for ages, but with millions of dollars of marketing muscle behind the slogan ‘There’s an app for that,’ plus the arrival of ‘app stores’ for a wide spectrum of operating systems for phones and computers, app really exploded in the last 12 months,” Zimmer said. “One of the most convincing arguments from the voting floor was from a woman who said that even her grandmother had heard of it.”  
 >   
 > — [American Dialect Society: Word of the Year Vote](https://www.americandialect.org/American-Dialect-Society-2010-Word-of-the-Year-PRESS-RELEASE.pdf) \(2010\)
 
-The agency that I worked for at that time was approached by an organisation hosting an international, week-long conference in Cape Town. Our team had done little-to-none mobile app work at this time, however, the team lead thought it might be a good opportunity to cut our teeth on an easy project. 
+The agency that I worked for at that time had been approached by an organisation hosting an international, week-long conference. Our team had done very little native \(or even hybrid\) app work at this time. However, the team-lead \(convinced that we need to start branching out into native apps\) figured that this might be a good opportunity to cut our teeth on an easy project. 
 
-At this time [Apache Cordova](https://cordova.apache.org/) was widely used and, due to our team's familiarity with building websites, this is what was decided on. Given that I rarely ventured outside the confines of Cordova, the process was indistinguishable from designing a regular JavaScript-heavy web project. Unfortunately, I can't say the same for the team lead. I'm sure he racked up quite a phone bill by means of daily phone conversation from Cape Town, South Africa to California, USA. The deadline was quite tight and the team was scurrying to push the product past the gatekeepers at the [App Store](https://www.apple.com/ios/app-store/) and [Play Store](https://play.google.com/store) in time. 
+At this time [Apache Cordova](https://cordova.apache.org/) was widely used and \(due to our team's familiarity with building websites\) this is what was decided on. Given that I rarely ventured outside the confines of Cordova, the process seemed indistinguishable from designing a regular JavaScript-heavy web project. Unfortunately, I can't say the same for the team-lead. I'm sure he racked up quite a phone bill through daily \(or even hourly\) phone conversation from Cape Town, South Africa to California, USA. The deadline was tight and the team scurried to push the product past the gatekeepers at the [App Store](https://www.apple.com/ios/app-store/) and [Play Store](https://play.google.com/store). 
 
-In the end we ended up barely scraping past. Regardless, we were extremely proud and the client was extremely impressed with the end product. We even had a celebratory party at the office one evening. The first day of the conference we kept our eyes firmly fixed on the download ticker, expecting a positive feedback for the hard work we put in. Unfortunately, by late-afternoon the numbers were still frighteningly low. We assumed the organizers forgot to promote it on the first day already. However, after a quick call we were assured that they had erected banners and distributed various merchandise with the URL on during the day. Perhaps the amounts displayed by the various stores  were cached and would update in a couple of hours or days. Unfortunately, more than a month later the downloads barely changed. 
+By some miracle we hit the deadline. We were extremely proud and the client was extremely impressed with the end product. We had a celebratory party at the office the next evening. The first day of the conference we kept our eyes firmly fixed on the download ticker, expecting positive feedback for the late nights we put in. Unfortunately, by late-afternoon the numbers were still frighteningly low. We assumed that the organizers forgot to promote it on the first day of the event. However, after a quick call we were assured that they had erected banners and distributed various merchandise with the URL during the day. Perhaps \(we reasoned\) the amounts displayed by the various stores were cached and would update in a couple of hours or days. Unfortunately, a month passed and the downloads barely changed. 
 
-To this day the project remains one of the biggest failure's I've experienced in my career. 
+**To this day the project remains one of the biggest failure's I've experienced in my career.** 
 
-Noted this might not be the common experience of most teams or clients. It is also possible that should we have attempted this in 2019 it might have fared better. However, I've often wondered whether things might have turned out differently if building a _Progressive Web App_ was an option back in 2014. 
-
-Even if it failed to the same disastrously degree, we would \(at the very least\) not have pay the upfront Google Play store \($25 once-off\) and App Store \($99/year\) registration fees.
+This might not be the common experience of most teams or clients when venturing into native apps for the first time. It is also possible that if we attempted this in 2019 the submission process might be smoother. However, I've often wondered whether things might have turned out differently if we had the option to build a _Progressive Web App_ in 2014. Given, even if it failed to the same disastrously degree, we would \(at the very least\) not have pay the upfront Google Play store \($25 once-off\) and App Store \($99/year\) registration fees.
 
 ## The State of Native Apps
 
 ### What we know
+
+By now this is almost a decade ago.
 
 According to Tal Ater \(in his phenomenal book, [Building Progressive Web Apps](http://shop.oreilly.com/product/0636920052067.do)\) it is certainly possible that this experience might not have been some professional fluke, but perhaps a more common occurrence:
 
